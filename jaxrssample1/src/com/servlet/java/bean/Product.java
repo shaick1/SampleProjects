@@ -10,6 +10,7 @@ public class Product implements Serializable {
     private String category;
     private double unitPrice;
     
+    
     public Product() {} // needed for JAXB
     public Product(int id, String name, String category, double unitPrice) {
         this.id = id;
